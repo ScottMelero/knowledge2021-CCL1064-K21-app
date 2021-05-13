@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation>GitHub zen </annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>REST API call to GitHub API to get zen quote.</description>
+        <ih_action>true</ih_action>
+        <internal_name>get_github_zen_quote</internal_name>
+        <label_cache>[{"name":"{{step[9d576c5b-7373-4143-a1f6-3a1e11c3e047].response_body}}","label":"step➛GET Zen Quote➛Response Body","type":"step","ref":""},{"name":"{{step[9d576c5b-7373-4143-a1f6-3a1e11c3e047].status_code}}","label":"step➛GET Zen Quote➛Status Code","type":"step","ref":""},{"name":"{{step[a3139629-308a-4dce-87da-1f3468041466].variable}}","label":"step➛Parse Returned Data ➛variable","type":"step","ref":""},{"name":"{{step[a3139629-308a-4dce-87da-1f3468041466].quote}}","label":"step➛Parse Returned Data ➛quote","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>e990fc2e05c0f0107f44d0d4cadb7bfd</latest_snapshot>
+        <master_snapshot>2d90fc2e05c0f0107f44d0d4cadb7bc5</master_snapshot>
+        <name>Get GitHub zen quote </name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:22:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>971fecaa05c0f0107f44d0d4cadb7bc8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Get GitHub zen quote </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Peer Review" source="x_1234_peer_review">fb59c63765df60107f44161e407c0b45</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_971fecaa05c0f0107f44d0d4cadb7bc8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=971fecaa05c0f0107f44d0d4cadb7bc8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=971fecaa05c0f0107f44d0d4cadb7bc8"/>
+    <sys_element_mapping action="delete_multiple" query="id=971fecaa05c0f0107f44d0d4cadb7bc8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>971fecaa05c0f0107f44d0d4cadb7bc8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:32</sys_created_on>
+        <sys_id>0c40782e05c0f0107f44d0d4cadb7bdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:32</sys_updated_on>
+        <table>var__m_sys_hub_action_output_971fecaa05c0f0107f44d0d4cadb7bc8</table>
+        <value>{{step[a3139629-308a-4dce-87da-1f3468041466].quote}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=971fecaa05c0f0107f44d0d4cadb7bc8^sys_idNOT IN4840782e05c0f0107f44d0d4cadb7ba0,fb30782e05c0f0107f44d0d4cadb7b7d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get GitHub zen quote ">971fecaa05c0f0107f44d0d4cadb7bc8</action>
+        <cid>a3139629-308a-4dce-87da-1f3468041466</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Parse Returned Data </label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:31</sys_created_on>
+        <sys_id>4840782e05c0f0107f44d0d4cadb7ba0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:28:59</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4840782e05c0f0107f44d0d4cadb7ba0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4840782e05c0f0107f44d0d4cadb7ba0</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:32</sys_created_on>
+        <sys_id>0440782e05c0f0107f44d0d4cadb7bd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:32</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	if(inputs.status_code == '200'){
+    	outputs.quote = inputs.response_body;
+    }
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4840782e05c0f0107f44d0d4cadb7ba0</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:28:59</sys_created_on>
+        <sys_id>1190fc2e05c0f0107f44d0d4cadb7b46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:28:59</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4840782e05c0f0107f44d0d4cadb7ba0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>4840782e05c0f0107f44d0d4cadb7ba0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:28:59</sys_created_on>
+        <sys_id>9d90fc2e05c0f0107f44d0d4cadb7b45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:28:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>4840782e05c0f0107f44d0d4cadb7ba0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:32</sys_created_on>
+        <sys_id>0040782e05c0f0107f44d0d4cadb7bd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:32</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_4840782e05c0f0107f44d0d4cadb7ba0</table>
+        <value>{{step[9d576c5b-7373-4143-a1f6-3a1e11c3e047].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>4840782e05c0f0107f44d0d4cadb7ba0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:32</sys_created_on>
+        <sys_id>8040782e05c0f0107f44d0d4cadb7bd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>4840782e05c0f0107f44d0d4cadb7ba0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:32</sys_created_on>
+        <sys_id>c040782e05c0f0107f44d0d4cadb7bd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:32</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_4840782e05c0f0107f44d0d4cadb7ba0</table>
+        <value>{{step[9d576c5b-7373-4143-a1f6-3a1e11c3e047].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=4840782e05c0f0107f44d0d4cadb7ba0^sys_idNOT IN0c40782e05c0f0107f44d0d4cadb7bc5,8040782e05c0f0107f44d0d4cadb7bc0"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status_code</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Parse Returned Data ">4840782e05c0f0107f44d0d4cadb7ba0</model>
+        <model_id>4840782e05c0f0107f44d0d4cadb7ba0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_4840782e05c0f0107f44d0d4cadb7ba0</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:32</sys_created_on>
+        <sys_id>0c40782e05c0f0107f44d0d4cadb7bc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Parse Returned Data ">4840782e05c0f0107f44d0d4cadb7ba0</model>
+        <model_id>4840782e05c0f0107f44d0d4cadb7ba0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_4840782e05c0f0107f44d0d4cadb7ba0</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:32</sys_created_on>
+        <sys_id>8040782e05c0f0107f44d0d4cadb7bc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=4840782e05c0f0107f44d0d4cadb7ba0^sys_idNOT IN0840782e05c0f0107f44d0d4cadb7bca"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8588ae27-2eb2-4006-b85c-c639914c655b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>quote</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>quote</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Parse Returned Data ">4840782e05c0f0107f44d0d4cadb7ba0</model>
+        <model_id>4840782e05c0f0107f44d0d4cadb7ba0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_4840782e05c0f0107f44d0d4cadb7ba0</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:32</sys_created_on>
+        <sys_id>0840782e05c0f0107f44d0d4cadb7bca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get GitHub zen quote ">971fecaa05c0f0107f44d0d4cadb7bc8</action>
+        <cid>9d576c5b-7373-4143-a1f6-3a1e11c3e047</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>GET Zen Quote</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:31</sys_created_on>
+        <sys_id>fb30782e05c0f0107f44d0d4cadb7b7d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:31</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fb30782e05c0f0107f44d0d4cadb7b7d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fb30782e05c0f0107f44d0d4cadb7b7d</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:31</sys_created_on>
+        <sys_id>0440782e05c0f0107f44d0d4cadb7b9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:31</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fb30782e05c0f0107f44d0d4cadb7b7d</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:31</sys_created_on>
+        <sys_id>4040782e05c0f0107f44d0d4cadb7b9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:31</sys_updated_on>
+        <value>https://api.github.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fb30782e05c0f0107f44d0d4cadb7b7d</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:31</sys_created_on>
+        <sys_id>8c40782e05c0f0107f44d0d4cadb7b9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:31</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fb30782e05c0f0107f44d0d4cadb7b7d</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:31</sys_created_on>
+        <sys_id>c440782e05c0f0107f44d0d4cadb7b9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:31</sys_updated_on>
+        <value>zen</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fb30782e05c0f0107f44d0d4cadb7b7d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:31</sys_created_on>
+        <sys_id>c840782e05c0f0107f44d0d4cadb7b9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:31</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_hub_action_output action="delete_multiple" query="model=971fecaa05c0f0107f44d0d4cadb7bc8^sys_idNOT IN8840782e05c0f0107f44d0d4cadb7bd7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=efc45d05-e000-4bfd-8c96-07b61f4c6280</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get GitHub zen quote ">971fecaa05c0f0107f44d0d4cadb7bc8</model>
+        <model_id>971fecaa05c0f0107f44d0d4cadb7bc8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_971fecaa05c0f0107f44d0d4cadb7bc8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:32</sys_created_on>
+        <sys_id>8840782e05c0f0107f44d0d4cadb7bd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_971fecaa05c0f0107f44d0d4cadb7bc8^sys_idNOT IN8040782e05c0f0107f44d0d4cadb7bdd"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>variable</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_971fecaa05c0f0107f44d0d4cadb7bc8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:27:32</sys_created_on>
+        <sys_id>8040782e05c0f0107f44d0d4cadb7bdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Peer Review" source="x_1234_peer_review">fb59c63765df60107f44161e407c0b45</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:27:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=971fecaa05c0f0107f44d0d4cadb7bc8^sys_idNOT IN7990306e05c0f0107f44d0d4cadb7b73"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get GitHub zen quote ">971fecaa05c0f0107f44d0d4cadb7bc8</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"7990306e05c0f0107f44d0d4cadb7b73","name":"plan"}}</plan>
+        <snapshot>e990fc2e05c0f0107f44d0d4cadb7bfd</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7990306e05c0f0107f44d0d4cadb7b73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:01</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation>GitHub zen </annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>REST API call to GitHub API to get zen quote.</description>
+        <internal_name>get_github_zen_quote</internal_name>
+        <label_cache>[{"name":"{{step[9d576c5b-7373-4143-a1f6-3a1e11c3e047].response_body}}","label":"step➛GET Zen Quote➛Response Body","type":"step","ref":""},{"name":"{{step[9d576c5b-7373-4143-a1f6-3a1e11c3e047].status_code}}","label":"step➛GET Zen Quote➛Status Code","type":"step","ref":""},{"name":"{{step[a3139629-308a-4dce-87da-1f3468041466].variable}}","label":"step➛Parse Returned Data ➛variable","type":"step","ref":""},{"name":"{{step[a3139629-308a-4dce-87da-1f3468041466].quote}}","label":"step➛Parse Returned Data ➛quote","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get GitHub zen quote </name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get GitHub zen quote ">971fecaa05c0f0107f44d0d4cadb7bc8</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d90fc2e05c0f0107f44d0d4cadb7bc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2d90fc2e05c0f0107f44d0d4cadb7bc5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2d90fc2e05c0f0107f44d0d4cadb7bc5"/>
+    <sys_element_mapping action="delete_multiple" query="id=2d90fc2e05c0f0107f44d0d4cadb7bc5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>2d90fc2e05c0f0107f44d0d4cadb7bc5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>6990fc2e05c0f0107f44d0d4cadb7bfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2d90fc2e05c0f0107f44d0d4cadb7bc5</table>
+        <value>{{step[a3139629-308a-4dce-87da-1f3468041466].quote}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=2d90fc2e05c0f0107f44d0d4cadb7bc5^sys_idNOT IN6590fc2e05c0f0107f44d0d4cadb7bd9,ed90fc2e05c0f0107f44d0d4cadb7bc8"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get GitHub zen quote ">2d90fc2e05c0f0107f44d0d4cadb7bc5</action>
+        <cid>a3139629-308a-4dce-87da-1f3468041466</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Parse Returned Data </label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>6590fc2e05c0f0107f44d0d4cadb7bd9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6590fc2e05c0f0107f44d0d4cadb7bd9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6590fc2e05c0f0107f44d0d4cadb7bd9</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>a990fc2e05c0f0107f44d0d4cadb7bf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	if(inputs.status_code == '200'){
+    	outputs.quote = inputs.response_body;
+    }
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6590fc2e05c0f0107f44d0d4cadb7bd9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>e590fc2e05c0f0107f44d0d4cadb7bf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6590fc2e05c0f0107f44d0d4cadb7bd9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>6590fc2e05c0f0107f44d0d4cadb7bd9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>a190fc2e05c0f0107f44d0d4cadb7bf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>6590fc2e05c0f0107f44d0d4cadb7bd9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>2590fc2e05c0f0107f44d0d4cadb7bf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6590fc2e05c0f0107f44d0d4cadb7bd9</table>
+        <value>{{step[9d576c5b-7373-4143-a1f6-3a1e11c3e047].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>6590fc2e05c0f0107f44d0d4cadb7bd9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>6590fc2e05c0f0107f44d0d4cadb7bf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>6590fc2e05c0f0107f44d0d4cadb7bd9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>e590fc2e05c0f0107f44d0d4cadb7bf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6590fc2e05c0f0107f44d0d4cadb7bd9</table>
+        <value>{{step[9d576c5b-7373-4143-a1f6-3a1e11c3e047].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=6590fc2e05c0f0107f44d0d4cadb7bd9^sys_idNOT IN2990fc2e05c0f0107f44d0d4cadb7be2,e590fc2e05c0f0107f44d0d4cadb7bdc"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status_code</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>status_code</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Parse Returned Data ">6590fc2e05c0f0107f44d0d4cadb7bd9</model>
+        <model_id>6590fc2e05c0f0107f44d0d4cadb7bd9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6590fc2e05c0f0107f44d0d4cadb7bd9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>2990fc2e05c0f0107f44d0d4cadb7be2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response_body</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Parse Returned Data ">6590fc2e05c0f0107f44d0d4cadb7bd9</model>
+        <model_id>6590fc2e05c0f0107f44d0d4cadb7bd9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6590fc2e05c0f0107f44d0d4cadb7bd9</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>e590fc2e05c0f0107f44d0d4cadb7bdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6590fc2e05c0f0107f44d0d4cadb7bd9^sys_idNOT IN6990fc2e05c0f0107f44d0d4cadb7be8"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8588ae27-2eb2-4006-b85c-c639914c655b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>quote</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>quote</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Parse Returned Data ">6590fc2e05c0f0107f44d0d4cadb7bd9</model>
+        <model_id>6590fc2e05c0f0107f44d0d4cadb7bd9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6590fc2e05c0f0107f44d0d4cadb7bd9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>6990fc2e05c0f0107f44d0d4cadb7be8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get GitHub zen quote ">2d90fc2e05c0f0107f44d0d4cadb7bc5</action>
+        <cid>9d576c5b-7373-4143-a1f6-3a1e11c3e047</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>GET Zen Quote</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>ed90fc2e05c0f0107f44d0d4cadb7bc8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ed90fc2e05c0f0107f44d0d4cadb7bc8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ed90fc2e05c0f0107f44d0d4cadb7bc8</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>2590fc2e05c0f0107f44d0d4cadb7bd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ed90fc2e05c0f0107f44d0d4cadb7bc8</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>2990fc2e05c0f0107f44d0d4cadb7bd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <value>zen</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ed90fc2e05c0f0107f44d0d4cadb7bc8</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>6190fc2e05c0f0107f44d0d4cadb7bd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <value>https://api.github.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ed90fc2e05c0f0107f44d0d4cadb7bc8</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>ad90fc2e05c0f0107f44d0d4cadb7bd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ed90fc2e05c0f0107f44d0d4cadb7bc8</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>e990fc2e05c0f0107f44d0d4cadb7bd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_hub_action_output action="delete_multiple" query="model=2d90fc2e05c0f0107f44d0d4cadb7bc5^sys_idNOT IN6190fc2e05c0f0107f44d0d4cadb7bf5"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=efc45d05-e000-4bfd-8c96-07b61f4c6280</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get GitHub zen quote ">2d90fc2e05c0f0107f44d0d4cadb7bc5</model>
+        <model_id>2d90fc2e05c0f0107f44d0d4cadb7bc5</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2d90fc2e05c0f0107f44d0d4cadb7bc5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>6190fc2e05c0f0107f44d0d4cadb7bf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_2d90fc2e05c0f0107f44d0d4cadb7bc5^sys_idNOT IN2190fc2e05c0f0107f44d0d4cadb7bfa"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>variable</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2d90fc2e05c0f0107f44d0d4cadb7bc5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:00</sys_created_on>
+        <sys_id>2190fc2e05c0f0107f44d0d4cadb7bfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Peer Review" source="x_1234_peer_review">fb59c63765df60107f44161e407c0b45</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:29:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
